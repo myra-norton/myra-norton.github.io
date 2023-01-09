@@ -16,7 +16,7 @@ body{
 .box{
     background-color:rgb(35, 12, 243);
     border: 2px solid white;
-    height: 350px;
+    height: 325px;
 }
 #site-title{
     color: white;
@@ -33,7 +33,18 @@ body{
     color: white;
 }
 
+#text-container{
+    border: 7px solid;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: #5DA2D5;
+    font-size: 18px;
+}
 
+a:-webkit-any-link{
+    text-decoration:none !important;
+    }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
