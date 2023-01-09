@@ -1,0 +1,14 @@
+site title is: "official Myra Norton Website"
+site subtitle is: "an experimental site built from scratch"
+
+buttons include: bio, accountability, connect
+dropdown buttons include: projects
+    dropdown items: pen plotter, web dev, music production, interstellar dust, neuro stuff
+
+header: a series of photos that are buttons to bio etc
+welcome: a text box welcoming to the site
+
+coffee div: What kind of coffee did Myra have this morning
+spotistats div: Current music
+
+----------------------------------------------------------

@@ -1,0 +1,56 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+body{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #5DA2D5;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#site-container{
+    /* --bs-gutter-x:0; */
+    margin-top: 20px;
+    /* background-color:rgb(177, 40, 168); */
+    /* border: 2px solid white; */
+}
+.box{
+    background-color:rgb(35, 12, 243);
+    border: 2px solid white;
+    height: 350px;
+}
+#site-title{
+    color: white;
+    font-size:34px;
+}
+
+#site-subtitle{
+    color: white;
+    font-size:17px;
+}
+
+.btn{
+    font-size:17px;
+    color: white;
+}
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    #site-title{
+        font-size:32px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    #site-title{
+        font-size:34px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+/* @media (min-width: 992px) { }*/
+
+/*Extra large devices (large desktops, 1200px and up)*/
+/* @media (min-width: 1200px) { ... } */
