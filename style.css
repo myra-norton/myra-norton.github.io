@@ -46,10 +46,24 @@ a:-webkit-any-link{
     text-decoration:none !important;
     }
 
+.altimagesleft, .altimagesright{
+    text-align: center;
+}
+.bioimg{
+    width: 100%;
+}
+
+.biorow{
+    font-size: 1.15em;
+}
+
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     #site-title{
         font-size:32px;
+    }
+    .bioimg{
+        width: 80%;
     }
 }
 
@@ -58,10 +72,16 @@ a:-webkit-any-link{
     #site-title{
         font-size:34px;
     }
+    .altimagesleft{
+        text-align: left;
+    }
+    .altimagesright{
+        text-align: right;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
-/* @media (min-width: 992px) { }*/
+/* @media (min-width: 992px) {} */
 
 /*Extra large devices (large desktops, 1200px and up)*/
 /* @media (min-width: 1200px) { ... } */
