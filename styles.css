@@ -61,6 +61,11 @@ body {
     top: 0;
     z-index: 1; /* Places the canvas behind the text */
 }
+#p5-motion-container {
+  position: absolute;
+  top: 0;
+  z-index: 1; /* Places the canvas behind the text */
+}
 
 .my-button {
     background-color: #4CAF50; /* Green */
